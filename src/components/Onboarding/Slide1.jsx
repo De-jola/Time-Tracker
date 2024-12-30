@@ -11,7 +11,7 @@ const Slide1 = () => {
         Track your time, boost your productivity, and achieve your goals
         effortlessly
       </p>
-      <img src={slide1Img} />
+      <img src={slide1Img} loading="lazy" />
     </div>
   );
 };

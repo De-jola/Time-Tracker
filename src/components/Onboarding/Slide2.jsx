@@ -8,7 +8,7 @@ const Slide2 = () => {
         Powerful Features at Your Fingertips
       </h1>
       <p className="text-lg">Manage your time like a pro with these tools.</p>
-      <img src={slide2Img} />
+      <img src={slide2Img} loading="lazy" />
     </div>
   );
 };
