@@ -49,7 +49,7 @@ const HomePage = () => {
 
         <div className="bg-blue-500 flex flex-col items-center justify-center m-auto px-24 py-24 rounded-full">
           <h1 className="text-3xl font-bold text-white">
-            {isActive ? "Tracking" : "Track"}
+            {isActive ? "Tracking..." : "Track"}
           </h1>
           <p className="text-white text-xl mt-4 font-mono">{formatTime()}</p>
           <div className="flex gap-4 mt-6">

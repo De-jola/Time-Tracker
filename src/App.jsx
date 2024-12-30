@@ -6,9 +6,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Onboarding />} />
+        <Route path="/" Component={Onboarding} />
 
-        <Route path="/home" element={<HomePage />} />
+        <Route path="/home" Component={HomePage} />
       </Routes>
     </Router>
   );
