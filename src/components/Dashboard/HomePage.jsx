@@ -37,7 +37,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section id="homepage" className="p-4 flex flex-col max-h-screen">
+      <section id="homepage" className="p-4 flex flex-col min-h-screen">
         <nav className="flex items-center justify-between">
           <div className="text-4xl">
             <BiArrowFromLeft />
@@ -52,7 +52,7 @@ const HomePage = () => {
             {isActive ? "Tracking..." : "Track"}
           </h1>
           <p className="text-white text-xl mt-4 font-mono">{formatTime()}</p>
-          <div className="flex gap-4 mt-6">
+          <div className="flex gap-4 mt-4">
             <button
               onClick={handleStartStop}
               className={`px-4 py-2 rounded-lg text-white ${
