@@ -37,7 +37,7 @@ const HomePage = () => {
 
   return (
     <>
-      <section id="homepage" className="p-4 flex flex-col min-h-screen">
+      <section id="homepage" className="p-4 flex flex-col max-h-screen">
         <nav className="flex items-center justify-between">
           <div className="text-4xl">
             <BiArrowFromLeft />

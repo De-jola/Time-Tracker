@@ -27,7 +27,7 @@ const Onboarding = () => {
   };
 
   return (
-    <main className="p-8 flex flex-col min-h-screen relative font-rubik">
+    <main className="p-8 flex flex-col max-h-screen relative font-rubik">
       <div className="flex justify-between items-center ">
         <div className="flex item-center gap-1">
           {dots.map((item, index) => (
