@@ -1,9 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { BiArrowFromLeft, BiUser } from "react-icons/bi";
+import { useNavigate } from "react-router-dom";
+import { BiClipboard, BiUser } from "react-icons/bi";
 
 const HomePage = () => {
   const [seconds, setSeconds] = useState(0); // Timer value
   const [isActive, setIsActive] = useState(false); // Track if the timer is running
+
+  const navigate = useNavigate();
+
+  const goToReport = () => {
+    navigate("/dashboard/report");
+  };
 
   // Start the timer when 'isActive' is true
   useEffect(() => {
@@ -39,8 +46,8 @@ const HomePage = () => {
     <>
       <section id="homepage" className="p-4 flex flex-col min-h-screen">
         <nav className="flex items-center justify-between">
-          <div className="text-4xl">
-            <BiArrowFromLeft />
+          <div className="text-4xl ">
+            <BiClipboard onClick={goToReport} />
           </div>
           <div className="bg-blue-300 p-2 rounded-full cursor-pointer text-2xl">
             <BiUser />

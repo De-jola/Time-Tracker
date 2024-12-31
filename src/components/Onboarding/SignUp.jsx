@@ -12,7 +12,7 @@ const SignUp = () => {
   };
 
   const gotToHomePage = () => {
-    navigate("/home");
+    navigate("/dashboard");
   };
 
   return (
