@@ -1,5 +1,5 @@
 import React from "react";
-import slide3Img from "/Images/slide 3.jpg";
+import slide3Img from "/Images/slide 3.webp";
 
 const Slide3 = () => {
   return (
@@ -8,7 +8,7 @@ const Slide3 = () => {
         Ready to Master Your Time?
       </h1>
       <p className="text-lg">Let’s set you up in seconds!</p>
-      <img src={slide3Img} loading="lazy" />
+      <img src={slide3Img} />
     </div>
   );
 };

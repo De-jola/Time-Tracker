@@ -1,5 +1,5 @@
 import React from "react";
-import slide1Img from "/Images/slide-2.jpg";
+import slide1Img from "/Images/slide-2.webp";
 
 const Slide1 = () => {
   return (
